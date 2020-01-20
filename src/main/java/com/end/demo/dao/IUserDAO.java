@@ -7,6 +7,8 @@ import com.end.demo.vo.XhrVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
+
+import java.security.Principal;
 import java.util.HashMap;
 import java.util.List;
 
@@ -19,7 +21,7 @@ public interface IUserDAO {
                                     @Param("sIndex")int sIndex,
                                     @Param("eIndex")int eIndex);
 
-    public int maxCountList();
+    public int maxCountList(String name);
 
     public void insertCalendar(CalendarVO cvo);
 

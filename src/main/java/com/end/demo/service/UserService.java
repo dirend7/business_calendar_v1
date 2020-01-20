@@ -10,6 +10,7 @@ import org.springframework.transaction.TransactionStatus;
 import org.springframework.transaction.support.TransactionCallbackWithoutResult;
 import org.springframework.transaction.support.TransactionTemplate;
 
+import java.security.Principal;
 import java.util.HashMap;
 import java.util.List;
 
@@ -49,8 +50,8 @@ public class UserService {
         return dao.getList(name,sIndex,eIndex);
     }
 
-    public int maxCountList(){
-        return dao.maxCountList();
+    public int maxCountList(String name){
+        return dao.maxCountList(name);
     }
 
     public int updateDelete(List<Integer> i) {

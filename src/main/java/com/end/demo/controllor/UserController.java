@@ -66,7 +66,7 @@ public class UserController {
         mv.addObject("pageTitle", "check");
         mv.addObject("session", principal.getName());
         mv.addObject("etc", service.getEtc(principal.getName()));
-        mv.addObject("maxCountList",service.maxCountList());
+        mv.addObject("maxCountList",service.maxCountList(principal.getName()));
         mv.addObject("list", service.getList(principal.getName(),page));
         mv.setViewName("index");
         return mv;

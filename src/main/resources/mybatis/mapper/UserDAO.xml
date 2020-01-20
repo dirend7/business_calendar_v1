@@ -26,7 +26,15 @@
         </choose>) where i between ${sIndex} and ${eIndex}
     </select>
     <select id="maxCountList" resultType="_int">
-        select ceil(count(i)/10) from CALENDAR
+        select ceil(count(i)/10) from CALENDAR inner join USER_LIST using(id)
+        <choose>
+            <when test="!name.equals('admin')">
+                where name = #{name} and DELETE_FLAG =0
+            </when>
+            <otherwise>
+                where DELETE_FLAG = 0
+            </otherwise>
+        </choose>
     </select>
     <update id="updateDelete" parameterType="com.end.demo.vo.CalendarVO">
         update CALENDAR set DELETE_FLAG = 1 where i in
