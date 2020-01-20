@@ -61,7 +61,7 @@ id : user로 직원 세션 로그인
 </pre>
 
 ### - 리스트 (check) -
-<p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_user.jpg" alt="check_user" width="500px" height="400px"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_admin.jpg" alt="check_admin" width="350px" height="300px"></p>
+<p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_user.jpg" alt="check_user" width="400px" height="350px"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_admin.jpg" alt="check_admin" width="400px" height="350px"></p>
 <pre>
 <strong>직원 세션</strong>
 - 체크박스 선택 후 삭제 버튼<br>
