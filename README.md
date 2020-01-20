@@ -53,10 +53,18 @@ id : user로 직원 세션 로그인
 <pre>
 <strong>FullCalendar API 기반 달력</strong>
 승인 : 빨간색
-미승인 : 파란색
-
+미승인 : 파란색<br>
 <strong>신청 페이지</strong>
 사유 : 5자
 유형 : 반차, 연차, 하계휴가, 출장, 외근
 시작날짜, 끝날짜, 내용
+</pre>
+
+#### 리스트 (check)
+<p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_user.jpg" alt="check_user" width="500px" height="400px"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_admin.jpg" alt="check_admin" width="350px" height="300px"></p>
+<pre>
+<strong>직원 세션</strong>
+- 체크박스 선택 후 삭제 버튼<br>
+<strong>관리자 세션</strong>
+- 체크박스 선택 후 승인 미승인 버튼
 </pre>
