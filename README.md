@@ -34,7 +34,7 @@
 - AGREE_FLAG FK(일정여부) : 0(일정미승인), 1(일정승인)
 <strong>COLOR TABLE</strong>
 - AGREE_FLAG PK : CALENDAR TABLE의 부모테이블
-- COLOR(색) : 1(#e4006c), 2(#3788d8)
+- COLOR(색) : 1(#e4006c), 0(#3788d8)
 <strong>USER_LIST TABLE</strong>
 - PASSWORD : 스프링 시큐리티 암호화 후 저장
 </pre>
