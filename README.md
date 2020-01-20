@@ -1,13 +1,13 @@
 ## business_calendar_v1(일정관리 프로그램)
 ### 개요 및 모듈
 
-#### -개요-
+#### - 개요 -
 <ol>
   <li>직원이 일정신청 (반차, 연차, 하계휴가, 출장, 외근)</li>
   <li>관리자가 일정 검토 후 승인</li>
 </ol>
 
-#### -모듈-
+#### - 모듈 -
 <ul>
   <li>스프링 부트(Spring Boot)
     <ul>
@@ -25,7 +25,7 @@
   <li>FullCalendar API(JavaScript) - 달력 API</li>
 </ul>
 
-### -테이블 소개-
+### - 테이블 소개 -
 <p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/calendar_table.jpg" alt="calendar_table"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/color_table.jpg" alt="color_table">
 <img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/user_list_table.jpg" alt="user_list_table"></p>
 <pre>
@@ -40,7 +40,7 @@
 </pre>
 
 
-### -index 페이지 및 로그인 (index)-
+### - index 페이지 및 로그인 (index) -
 <p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/index.jpg" alt="index" width="400px" height="200px"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/login.jpg" alt="login" width="230px" height="200px"></p>
 <pre>
 로그인을 누르면 왼쪽에서 오른쪽으로 로그인화면이 나타남
@@ -48,7 +48,7 @@ id : admin으로 관리자 세션 로그인
 id : user로 직원 세션 로그인
 </pre>
 
-### -일정 및 신청 (accept)-
+### - 일정 및 신청 (accept) -
 <p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/calendar.jpg" alt="calendar" width="500px" height="400px"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/calendar_accept.jpg" alt="calendar_accept" width="350px" height="300px"></p>
 <pre>
 <strong>FullCalendar API 기반 달력</strong>
@@ -60,7 +60,7 @@ id : user로 직원 세션 로그인
 시작날짜, 끝날짜, 내용
 </pre>
 
-### -리스트 (check)-
+### - 리스트 (check) -
 <p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_user.jpg" alt="check_user" width="500px" height="400px"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/check_admin.jpg" alt="check_admin" width="350px" height="300px"></p>
 <pre>
 <strong>직원 세션</strong>
