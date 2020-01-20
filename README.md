@@ -70,7 +70,7 @@ id : user로 직원 세션 로그인
 </pre>
 
 ### - 페이징 및 동적쿼리 -
-<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/skill.jpg" alt="skill" width="700px" height="350px"></img>
+<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/skill.jpg" alt="skill" width="750px" height="350px"></img>
 <pre>
 - 마이바티스(mybatis)로 조건에 맞게 쿼리를 작성
 - 페이징을 위해서 Controller 에서 startIndex & endIndex, maxCountIndex xml로 보냄
