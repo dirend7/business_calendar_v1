@@ -24,3 +24,10 @@
   <li>그래들(Gradle)</li>
   <li>FullCalendar API(JavaScript) - 달력 API</li>
 </ul>
+
+#### index 페이지 및 로그인
+<p><img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/index.jpg" alt="index" width="400px" height="200px"></img>&nbsp<img src="https://github.com/dirend7/business_calendar_v1/blob/master/image/login.jpg" alt="login" width="230px" height="200px"></p>
+<pre>
+로그인을 누르면 왼쪽에서 오른쪽으로 로그인화면이 나타남
+
+</pre>
